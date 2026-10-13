@@ -1,0 +1,161 @@
+ExactMouse Redux – End User License Agreement (EULA)
+Endnutzer-Lizenzvertrag
+
+Copyright © 2026 Maximilian Dahl (@iamadesignerusually). All rights reserved.
+Alle Rechte vorbehalten.
+
+ExactMouse Redux is proprietary software. It is not open source.
+ExactMouse Redux ist proprietäre Software. Sie ist nicht Open Source.
+
+===============================================================================
+ENGLISH
+===============================================================================
+
+1. Scope
+This agreement applies to ExactMouse Redux version 3.8.0 and later, including
+updates, the documentation and all related files ("the Software"). By installing
+or using the Software you accept this agreement. If you do not accept it, do not
+install or use the Software.
+
+2. Licence
+The author grants you a non-exclusive, non-transferable, revocable licence to
+install and use the Software on Macs that you own or control, for personal or
+business use.
+- The free features may be used free of charge.
+- Pro features may require a paid licence key. During "Early Access" they are
+  unlocked for everyone free of charge; this can end with a later version.
+- A Pro licence is personal. It may only be used by the person or organisation
+  that bought it, on the number of Macs stated at purchase.
+
+3. Restrictions
+Unless mandatory law expressly allows it, you may not:
+- copy, distribute, publish, sell, rent, lend or sublicense the Software, or
+  offer it for download, other than linking to the official download page;
+- modify, translate, decompile, disassemble or otherwise reverse engineer the
+  Software, or create derivative works from it (the rights under mandatory law,
+  e.g. Sections 69d and 69e of the German Copyright Act, remain unaffected);
+- bypass, disable or tamper with licence checks or Pro restrictions;
+- remove or change copyright, trademark or legal notices.
+
+4. Ownership
+The Software is licensed, not sold. All rights, in particular copyright, in the
+Software, its code, design, texts and icons remain with the author.
+
+5. Earlier versions
+Versions up to and including 3.7.5 were published under the MIT License. For
+copies of those versions obtained at that time, the MIT License continues to
+apply. It does not apply to version 3.8.0 or later.
+
+6. Updates and data
+The Software checks GitHub for new versions and can download them when you
+install an update. It collects or sends no personal data. See LEGAL.md.
+
+7. Warranty
+The free Software is provided "as is". For paid licences the statutory warranty
+rights apply. The author does not guarantee that the Software works without
+errors or interruption, or with every device, macOS version or other software.
+
+8. Liability
+The author is liable without limitation for intent and gross negligence, for
+injury to life, body or health, and under the German Product Liability Act. For
+slight negligence the author is liable only for breach of an essential
+contractual obligation (an obligation whose fulfilment makes the proper
+performance of the contract possible in the first place and on which you may
+regularly rely), and limited to the damage that is typical and foreseeable for
+this kind of contract. For software provided free of charge the author is liable
+only for intent and gross negligence. Any further liability is excluded.
+
+9. Termination
+This licence ends automatically if you breach it. You must then delete all
+copies of the Software.
+
+10. Trademarks
+"SteelSeries" and "ExactMouse" are trademarks of SteelSeries ApS. ExactMouse
+Redux is not a SteelSeries product and is not affiliated with SteelSeries ApS.
+See LEGAL.md.
+
+11. Final provisions
+German law applies, excluding the UN Convention on Contracts for the
+International Sale of Goods (CISG). If you are a consumer, this choice of law does
+not deprive you of the protection of the mandatory provisions of the law of the
+country where you habitually reside. If a provision is invalid, the remaining
+provisions stay in effect.
+
+===============================================================================
+DEUTSCH
+===============================================================================
+
+1. Geltungsbereich
+Dieser Vertrag gilt für ExactMouse Redux ab Version 3.8.0, einschließlich
+Updates, Dokumentation und zugehöriger Dateien („die Software"). Mit der
+Installation oder Nutzung der Software stimmst du diesem Vertrag zu. Stimmst du
+nicht zu, installiere und nutze die Software nicht.
+
+2. Lizenz
+Der Autor räumt dir ein einfaches, nicht übertragbares, widerrufliches Recht
+ein, die Software auf Macs zu installieren und zu nutzen, die dir gehören oder
+die du verwaltest, privat oder beruflich.
+- Die kostenlosen Funktionen dürfen unentgeltlich genutzt werden.
+- Pro-Funktionen können einen kostenpflichtigen Lizenzschlüssel erfordern. Im
+  „Early Access" sind sie für alle kostenlos freigeschaltet; das kann mit einer
+  späteren Version enden.
+- Eine Pro-Lizenz ist persönlich. Sie darf nur von der Person oder Organisation
+  genutzt werden, die sie gekauft hat, auf der beim Kauf genannten Zahl von Macs.
+
+3. Einschränkungen
+Soweit zwingendes Recht es nicht ausdrücklich erlaubt, darfst du nicht:
+- die Software kopieren, verbreiten, veröffentlichen, verkaufen, vermieten,
+  verleihen, unterlizenzieren oder zum Download anbieten, außer durch einen
+  Link auf die offizielle Download-Seite;
+- die Software verändern, übersetzen, dekompilieren, disassemblieren oder
+  anderweitig zurückentwickeln oder abgeleitete Werke daraus erstellen (die
+  zwingenden Rechte, z. B. nach §§ 69d und 69e UrhG, bleiben unberührt);
+- Lizenzprüfungen oder Pro-Beschränkungen umgehen, abschalten oder verändern;
+- Urheber-, Marken- oder Rechtshinweise entfernen oder ändern.
+
+4. Rechte
+Die Software wird lizenziert, nicht verkauft. Alle Rechte, insbesondere das
+Urheberrecht, an der Software, ihrem Code, Design, Texten und Symbolen
+verbleiben beim Autor.
+
+5. Frühere Versionen
+Versionen bis einschließlich 3.7.5 wurden unter der MIT-Lizenz veröffentlicht.
+Für damals bezogene Kopien dieser Versionen gilt die MIT-Lizenz weiter. Für
+Version 3.8.0 und neuer gilt sie nicht.
+
+6. Updates und Daten
+Die Software fragt bei GitHub nach neuen Versionen und lädt sie, wenn du ein
+Update installierst. Sie erhebt und sendet keine personenbezogenen Daten.
+Siehe LEGAL.md.
+
+7. Gewährleistung
+Die kostenlose Software wird so bereitgestellt, wie sie ist. Für
+kostenpflichtige Lizenzen gelten die gesetzlichen Gewährleistungsrechte. Der
+Autor sichert nicht zu, dass die Software fehlerfrei, ununterbrochen oder mit
+jedem Gerät, jeder macOS-Version oder anderer Software funktioniert.
+
+8. Haftung
+Der Autor haftet unbeschränkt bei Vorsatz und grober Fahrlässigkeit, bei
+Verletzung von Leben, Körper oder Gesundheit sowie nach dem
+Produkthaftungsgesetz. Bei leichter Fahrlässigkeit haftet der Autor nur bei
+Verletzung einer wesentlichen Vertragspflicht (einer Pflicht, deren Erfüllung
+die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf
+deren Einhaltung du regelmäßig vertrauen darfst), begrenzt auf den
+vertragstypischen, vorhersehbaren Schaden. Für unentgeltlich überlassene
+Software haftet der Autor nur bei Vorsatz und grober Fahrlässigkeit. Eine
+weitergehende Haftung ist ausgeschlossen.
+
+9. Beendigung
+Diese Lizenz endet automatisch, wenn du gegen sie verstößt. Du musst dann alle
+Kopien der Software löschen.
+
+10. Marken
+„SteelSeries" und „ExactMouse" sind Marken der SteelSeries ApS. ExactMouse
+Redux ist kein Produkt von SteelSeries und nicht mit der SteelSeries ApS
+verbunden. Siehe LEGAL.md.
+
+11. Schlussbestimmungen
+Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts (CISG). Bist du
+Verbraucher, wird dir dadurch nicht der Schutz der zwingenden Bestimmungen des
+Rechts des Staates entzogen, in dem du deinen gewöhnlichen Aufenthalt hast.
+Ist eine Bestimmung unwirksam, bleiben die übrigen wirksam.

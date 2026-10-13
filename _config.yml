@@ -1,0 +1,18 @@
+# GitHub Pages (renders README.md as the start page)
+title: ExactMouse Redux – alternative to the SteelSeries ExactMouse Tool for macOS
+description: >-
+  Free alternative to the SteelSeries ExactMouse Tool, inspired by the original. Disable mouse
+  acceleration on macOS 27, Sequoia and Sonoma – native on Apple Silicon and Intel.
+  Unofficial, not affiliated with SteelSeries.
+author: Maximilian Dahl
+lang: en
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - build
+  - scripts
+  - Sources
+  - Resources
+  - "*.sh"
+  - VERSION
