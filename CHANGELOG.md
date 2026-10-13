@@ -3,6 +3,20 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.9.0] – 2026-10-13
+
+### Added
+- **Linear fine tuning (Pro):** under every speed slider (general, per device, per app and game mode) there is now a "Fine tuning" section. It sets any linear speed from **0.10× to 4.00× in steps of 0.01**:
+  - with a logarithmic fine slider, so equal moves feel equally big;
+  - by typing a number;
+  - with the arrow buttons.
+  A plain line shows the effect, for example "37 % faster than 1:1 – still linear", and "Reset to 1:1" goes back to raw. The 9 presets stay free. Fine values open the section automatically.
+- The automation URL `exactmouse-redux://speed/<value>` takes any value in 0.10–4.00 with Pro. Values outside that range are clamped.
+
+### Changed
+- The speed sliders in Settings now use the full width.
+- Pro tab: the card "Per-device settings" is now "Fine tuning & devices".
+
 ## [3.8.0] – 2026-10-13
 
 ### Changed

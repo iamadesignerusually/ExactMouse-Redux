@@ -40,7 +40,7 @@ Das war die Inspiration für **ExactMouse Redux**: ein eigenständiger Neubau f�
 - **Statistik:** Mausweg (Tag, Monat, Jahr, gesamt), Klicks pro Taste, meistgenutzte Makros und eine Heatmap nach Wochentag × Stunde, wann du bewegst, klickst und scrollst. Alles bleibt lokal, Tastatureingaben werden nicht erfasst.
 - **Gaming:** automatischer Spielmodus, Akku-Warnungen, ein Empfindlichkeits-Rechner (cm/360°, eDPI, Umrechnung zwischen Spielen) und das Setzen der DPI bei Logitech-Mäusen.
 - **Automatisierung:** `exactmouse-redux://`-URLs für Kurzbefehle, Fokus, Raycast und Stream Deck.
-- **Pro-Funktionen** (im Early Access kostenlos): Einstellungen pro Gerät, **Profile pro App** (z. B. nur im Spiel 1:1), Scroll-Beschleunigung aus, Scrollrichtung nur für die Maus umkehren, dazu die Diagnose, der automatische Spielmodus und Akku-Warnungen. Der **Pro-Tab** zeigt alles auf einen Blick.
+- **Pro-Funktionen** (im Early Access kostenlos): **stufenlose Linear-Feineinstellung** (0,10–4,00× in 0,01er-Schritten, per Feinregler, Zahlenfeld und Pfeilen), Einstellungen pro Gerät, **Profile pro App** (z. B. nur im Spiel 1:1), Scroll-Beschleunigung aus, Scrollrichtung nur für die Maus umkehren, dazu die Diagnose, der automatische Spielmodus und Akku-Warnungen. Der **Pro-Tab** zeigt alles auf einen Blick.
 - **Tempo ohne Beschleunigung:** ein Regler von 0,3× bis 2,6×, immer linear und nie eine Kurve. In der Mitte steht roh 1:1.
 - **Eingebaute Updates:** eine tägliche Prüfung über GitHub-Releases, Installation mit einem Klick samt Prüfsumme und Signaturprüfung.
 - Ein Menü, in dem jeder Modus erklärt ist, mit Live-Anzeige, ob gerade Beschleunigung aktiv ist.

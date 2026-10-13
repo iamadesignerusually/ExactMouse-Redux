@@ -50,7 +50,7 @@ That is what inspired **ExactMouse Redux**: an independent rebuild from scratch 
 - **Statistics:** how far your mouse travels (today, month, year, all time), clicks per button, your most used macros, and a weekday × hour heat map of when you move, click and scroll. Everything stays local, with no keystrokes recorded.
 - **Gaming:** automatic game mode, low battery warnings, a sensitivity calculator (cm/360°, eDPI, conversion between games), and setting the DPI of Logitech mice.
 - **Automation:** `exactmouse-redux://` URLs for Shortcuts, Focus, Raycast and Stream Deck.
-- **Pro features** (free during Early Access): settings per device, **profiles per app** (e.g. 1:1 only in your game), scroll acceleration off, mouse-only reverse scrolling, plus the diagnostics, automatic game mode and battery warnings. The **Pro tab** shows them all at a glance.
+- **Pro features** (free during Early Access): **stepless linear fine tuning** (0.10–4.00× in 0.01 steps, with fine slider, number field and arrows), settings per device, **profiles per app** (e.g. 1:1 only in your game), scroll acceleration off, mouse-only reverse scrolling, plus the diagnostics, automatic game mode and battery warnings. The **Pro tab** shows them all at a glance.
 - **Speed without acceleration:** a slider from 0.3× to 2.6×, always linear and never a curve. The middle position is raw 1:1.
 - **Built-in updates:** a daily check against GitHub Releases, one-click install with checksum and signature check.
 - **Menu with explanations.** Every mode tells you what it does, and the menu shows a live status line saying whether macOS currently applies acceleration.
