@@ -3,6 +3,11 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.9.1] – 2026-10-16
+
+### Fixed
+- **A switched-off or disconnected mouse stayed in the menu.** On a MacBook without a mouse, the menu kept showing the last mouse as the main device instead of the trackpad. The same stale entry affected the menu bar battery. The app used one connection to the macOS input system for its whole runtime, and that connection never heard about removed devices. The device list now comes from a connection that is at most one second old, so the trackpad moves to the top as soon as no mouse is connected.
+
 ## [3.9.0] – 2026-10-13
 
 ### Added
