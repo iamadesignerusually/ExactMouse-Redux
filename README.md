@@ -52,7 +52,11 @@ That is what inspired **ExactMouse Redux**: an independent rebuild from scratch 
 - **Automation:** `exactmouse-redux://` URLs for Shortcuts, Focus, Raycast and Stream Deck.
 - **Pro features** (free during Early Access): **stepless linear fine tuning** (0.10–4.00× in 0.01 steps, with fine slider, number field and arrows), settings per device, **profiles per app** (e.g. 1:1 only in your game), scroll acceleration off, mouse-only reverse scrolling, plus the diagnostics, automatic game mode and battery warnings. The **Pro tab** shows them all at a glance.
 - **Speed without acceleration:** a slider from 0.3× to 2.6×, always linear and never a curve. The middle position is raw 1:1.
-- **Built-in updates:** a daily check against GitHub Releases, one-click install with checksum and signature check.
+- **Signed updates:** a daily check against GitHub Releases and one-click install. Every update is signed with the developer's private key (Ed25519), and the app installs only updates whose signature matches. Checksum and code signature are checked as well.
+- **Short setup on first launch:** "What do you use your mouse for?" (Gaming, Design & photo, Office) sets a fitting starting point. Permissions are explained and asked only when a feature needs them.
+- **Several mice, controllers and remotes:** every mouse is switched, and you can pick the main device shown on top of the menu. Game controllers, presenters/remotes and pen tablets are recognised and left unchanged unless you include them. Virtual devices (e.g. Karabiner) are switched too.
+- **Bluetooth signal in the menu** (excellent / good / fair / weak) for every Bluetooth mouse, with the exact dBm in the details window.
+- **Report a problem:** a diagnostic report with no names or serial numbers and a preview of exactly what is copied, plus a check of the macOS system interfaces the app needs.
 - **Menu with explanations.** Every mode tells you what it does, and the menu shows a live status line saying whether macOS currently applies acceleration.
 - **Battery in the menu bar.** A small upright battery appears to the left of the mouse icon when a wireless mouse reports its level, and turns red at 15 %. The exact percentage is in the tooltip.
 - **Connected mice** with vendor, connection type (USB cable, USB wireless receiver, Bluetooth), battery and polling rate.

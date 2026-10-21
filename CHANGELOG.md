@@ -3,6 +3,41 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.10.0] – 2026-10-21
+
+### Added
+- **Setup on first launch:** three short steps:
+  1. Welcome, with the devices found on this Mac.
+  2. "What do you use your mouse for?" with presets: Gaming (Always On, 1:1, no scroll acceleration, game mode), Design & photo (On, 1:1, mouse and trackpad), Office (On, 1.6×) or "set it up myself".
+  3. Start at login, battery warnings and the permissions explained. Each one is asked only when its feature is used.
+
+  It can be started again from Settings → General.
+- **Several mice and other pointing devices:**
+  - Devices are now classified as mouse, game controller, presenter/remote, pen tablet or virtual device (e.g. Karabiner).
+  - Only mice (and virtual devices, which carry a real mouse's movement) are switched by default. Controllers, presenters and tablets keep their normal behaviour unless you give them a setting under Devices.
+  - With more than one mouse you can choose the **main device** shown on top of the menu, and the header shows "+1 more mouse".
+- **Bluetooth signal in the menu** for every Bluetooth mouse: excellent, good, fair or "⚠︎ weak".
+- **Report a problem** (Settings → Diagnostics): copies a diagnostic report with versions, settings, device models and values. It contains no user, computer or Bluetooth owner names and no serial numbers, and "Show report" previews exactly what is copied. There is also a button to open a GitHub issue.
+- **System interfaces check** (Diagnostics): shows whether macOS still accepts the interfaces the app needs, including the older ones for trackpads and the linear speed, and whether macOS refused any change. A future macOS that removes one shows up here instead of features failing silently.
+- **Logitech mice behind a Unifying or Bolt receiver (beta):** DPI and battery are now read through the receiver. The mouse slot is found by device type, so a keyboard on the same receiver is skipped. Not yet tested with real receivers.
+- **VoiceOver:**
+  - Speed sliders announce their value.
+  - Pro cards, statistics cards and detail rows are read as one element each.
+  - The heat map is read as a summary ("busiest: Tuesday around 21:00").
+  - Decorative previews are skipped.
+- New Help topics: several devices, Bluetooth signal, report a problem, setup.
+
+### Security
+- **Signed updates:**
+  - Every update is signed with an Ed25519 key that exists only on the developer's Mac.
+  - The app installs an update only if its signature matches the public key built into the app, so a hijacked GitHub account or a manipulated download cannot push an update.
+  - Releases without a signature are not offered at all.
+  - Checksum and code signature are still checked as well.
+
+### Changed
+- The code is split into smaller files, and the unused code of the old custom menu is gone.
+- Every release now runs a **built-in self test** first (`--self-test`, 29 checks covering speed, fixed point, battery estimate, device kinds, version compare, texts and system interfaces). A failing test stops the release.
+
 ## [3.9.1] – 2026-10-16
 
 ### Fixed
