@@ -3,6 +3,18 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.15.0] – 2026-10-21
+
+### Added
+- **7-day free trial of Pro**, ready for when sales start.
+  - **How it starts:** only when you click "Try 7 days free". No payment details, no account, and it simply ends.
+  - **During the trial:** the Pro pill, the price card and the bottom bar show the days left. Afterwards your settings are kept.
+  - **Restarting:** the start date is stored in the keychain, so resetting the app's settings does not start a new trial.
+  - **Buttons:** the main button is "Try 7 days free", with "Buy right away" next to it. During Early Access nothing changes, because everything is unlocked anyway.
+
+### Fixed
+- The Pro cards had empty space at the bottom. They are now as tall as their content, and both cards in a row share the same height.
+
 ## [3.14.0] – 2026-10-21
 
 ### Changed
