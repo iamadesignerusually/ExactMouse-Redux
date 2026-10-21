@@ -3,6 +3,20 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.13.0] – 2026-10-21
+
+### Changed
+- **More order in Settings:** things that were mixed together now have their own pages in the side menu.
+  - **General:** General (updates, start) · **Appearance** (menu bar icon style, battery icon) · **Notifications** (battery warnings) · **About** (version, license, project links, credits)
+  - **Mouse:** Movement (mode, speed) · **Trackpads** · Scrolling
+  - **Apps:** App profiles · **Game mode** · **Sensitivity calculator** · **Automation** (URLs)
+- Pages that are (partly) Pro carry the crown in the side menu.
+- Every page can be opened directly, e.g. `exactmouse-redux://settings/trackpads`.
+
+### Added
+- **Trackpads page:** "Include trackpads", the trackpads found, and the macOS trackpad settings (tracking speed, tap to click, Force Click, three-finger drag) with a button to System Settings.
+- **"Send a test notification"** shows what a battery warning looks like.
+
 ## [3.12.0] – 2026-10-21
 
 ### Added
