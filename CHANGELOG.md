@@ -3,6 +3,23 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.14.0] – 2026-10-21
+
+### Changed
+- **New Pro tab, built to convince and to make buying one click.** In order:
+  1. A clear promise ("Make your mouse yours").
+  2. **"For you":** hints from your own devices and numbers, e.g. the side keys of a Naga, the battery of a wireless mouse, several mice, or this month's distance and clicks.
+  3. Six outcome cards.
+  4. A **free vs. Pro** table.
+  5. A **price card with one big "Get Pro" button**, plus "Already have a key? Activate".
+  6. Three honest answers (what stays free, no account needed, no data sent).
+  7. A **bar at the bottom** that keeps the button in view while scrolling.
+
+  There are no invented reviews or user counts. During Early Access the tab shows that everything is unlocked, without a price or checkout. Sales are switched on by setting `ProOffer.price` and `ProOffer.checkoutURL`.
+
+### Fixed
+- In Settings the bottom of every page was slightly cut off, because of the hidden title bar. Pages now use the window's full height.
+
 ## [3.13.0] – 2026-10-21
 
 ### Changed
