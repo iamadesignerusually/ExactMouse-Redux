@@ -3,6 +3,25 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.16.0] – 2026-10-21
+
+### Added
+- **Gamepads (Pro, beta)** under Settings → Devices → Gamepads. Works with Xbox, PlayStation (DualShock 4, DualSense), Switch Pro, 8BitDo and MFi controllers through Apple's GameController framework, also while the app is in the background.
+  - **Live view:** both sticks with the deadzone, triggers as bars, buttons that light up, and the touchpad with up to two fingers.
+  - **Drift check and calibration:** 2 seconds with the sticks untouched gives the rest position and the jitter, for example "Left stick: slight drift (off-centre 4 %, recommended deadzone 6 %)". "Calibrate & apply" stores the rest position and a matching deadzone.
+  - **Circle test** (does the stick reach the whole edge, how round is it) and **touchpad test** (does the whole surface respond).
+  - **DualSense:** test the resistance of the adaptive R2 trigger.
+  - **Control the Mac with the controller:**
+    - one stick moves the pointer, the other scrolls, with a round deadzone, response curve and speed;
+    - the touchpad works as a trackpad (one finger moves, two fingers scroll) or for swipes;
+    - clicks and drags work;
+    - every button, both touchpad halves and the four swipes take the same actions as mouse buttons (clicks, shortcuts, media keys, apps, macros).
+- 12 new self-test checks for the gamepad maths (deadzone, curve, drift, calibration, circle and touchpad test, swipes).
+
+### Note
+- macOS does not let apps change what a game reads from the controller. Deadzone, calibration and mapping apply when you control the Mac and in games that use mouse and keyboard. Fixing drift inside games that read the controller directly would need a virtual controller driver, which requires a special permission from Apple.
+- Tested so far only with simulated values. There was no controller at hand.
+
 ## [3.15.0] – 2026-10-21
 
 ### Added

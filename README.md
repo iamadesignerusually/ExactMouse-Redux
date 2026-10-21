@@ -55,6 +55,7 @@ That is what inspired **ExactMouse Redux**: an independent rebuild from scratch 
 - **Signed updates:** a daily check against GitHub Releases and one-click install. Every update is signed with the developer's private key (Ed25519), and the app installs only updates whose signature matches. Checksum and code signature are checked as well.
 - **Short setup on first launch:** "What do you use your mouse for?" (Gaming, Design & photo, Office) sets a fitting starting point. Permissions are explained and asked only when a feature needs them.
 - **Several mice, controllers and remotes:** every mouse is switched, and you can pick the main device shown on top of the menu. Game controllers, presenters/remotes and pen tablets are recognised and left unchanged unless you include them. Virtual devices (e.g. Karabiner) are switched too.
+- **Gamepads (Pro, beta):** live view, drift check with calibration, circle and touchpad test, and controlling the Mac with Xbox, PlayStation, Switch Pro or 8BitDo controllers (pointer, scrolling, touchpad, every button mappable).
 - **Bluetooth signal in the menu** (excellent / good / fair / weak) for every Bluetooth mouse, with the exact dBm in the details window.
 - **Report a problem:** a diagnostic report with no names or serial numbers and a preview of exactly what is copied, plus a check of the macOS system interfaces the app needs.
 - **Menu with explanations.** Every mode tells you what it does, and the menu shows a live status line saying whether macOS currently applies acceleration.
