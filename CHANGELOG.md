@@ -3,6 +3,26 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.11.0] – 2026-10-21
+
+### Changed
+- **New settings window**:
+  - Dark "night" design with a soft green light behind the app icon.
+  - The header shows name, version and update state, with "Install X" right there when an update is available. A Pro pill on the right leads to the Pro tab.
+  - Tabs run across the window, each lit in its own colour when chosen.
+  - Pages start with a quiet note instead of a big title, and Pro marks are a subtle gold outline.
+  - The window is 900 × 660 and can be moved by its background.
+- **New menu**:
+  - The main device is a card with its icon, name, a connection pill, Bluetooth signal bars, state and a macOS-style battery. A click opens the details.
+  - The three modes are tiles side by side. The chosen one is lit in its colour, and its explanation sits below. Switching updates the tiles in place.
+  - Further devices take one quiet line each.
+  - Settings, About and Quit are plain rows with icons and shortcuts.
+  - Every row has the same width and a soft hover.
+- ExactMouse green replaces the system blue in selections.
+
+### Security
+- **New update signing key.** Version 3.10.0 cannot install this update by itself: it would correctly refuse it as "not signed by the developer". Please install 3.11.0 once with the install command or the DMG. From 3.11.0 on, updates install themselves again.
+
 ## [3.10.0] – 2026-10-21
 
 ### Added
