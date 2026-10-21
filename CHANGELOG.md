@@ -3,6 +3,23 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.12.0] – 2026-10-21
+
+### Added
+- **Device pages right in the menu.** A click on a device slides the menu over to its page, with a back button. The page shows acceleration, connection, signal with dBm, battery with remaining time, polling rate and the device setting. Trackpads show tracking speed, tap to click, Force Click and three-finger drag. "Measure & all details…" still opens the full window. The menu grows and shrinks with the page.
+- **About 200 fun facts in Statistics** instead of three. They compare your distance with buildings, mountains, animals, vehicles, rivers, bridges, tunnels, sports fields, routes between cities, space and everyday things. There are also speed facts (on foot, ICE, sound, light, hair growth, continental drift) and click facts (heartbeats, blinking). Only facts that fit your distance are shown, in a new order every day. An arrow shows the next one.
+- **Pro mark:** a small gold crown (`ProMark`), the same in all of the developer's apps. It appears on the Pro tab, in the Pro pill and in every Pro badge.
+
+### Changed
+- **Settings: 6 tabs instead of 10.** Related pages sit in a small side menu on the left:
+  - Mouse → Movement · Scrolling
+  - Devices → Devices · Buttons & macros · Diagnostics
+
+  Pro pages carry the crown. Help is the "?" button in the header. The window is narrower (720 pt) and the content uses its full width, with no empty margins.
+
+### Fixed
+- The trackpad hint said "Include trackpads" was in the menu. It is in Settings → Mouse.
+
 ## [3.11.0] – 2026-10-21
 
 ### Changed
