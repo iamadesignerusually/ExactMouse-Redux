@@ -3,6 +3,12 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.17.1] – 2026-10-24
+
+### Fixed
+- **Updater:** the app paths are now passed to the swap script as arguments instead of being written into the script text. An install folder whose name contains quotes or "$" can no longer break the update. Tested with such a folder name.
+- The menu no longer keeps an unneeded strong reference while building the device rows. This removes the last compiler warnings except the deliberately used older system interfaces.
+
 ## [3.17.0] – 2026-10-24
 
 ### Added
