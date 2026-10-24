@@ -3,6 +3,25 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.17.0] – 2026-10-24
+
+### Added
+- **Every device has its own entry in Settings → Devices.**
+  - The side menu lists every connected mouse, trackpad and controller with its icon and battery. A click opens the device's own pages below it:
+    - **Mice:** Overview · Speed & behaviour · Measurement
+    - **Trackpads:** Overview · Settings
+  - **Overview** shows everything about the device at a glance: type, connection, signal with dBm, battery with remaining time, polling rate and acceleration state. These are the same facts as the device page in the menu.
+  - **Speed & behaviour** holds the device's own speed (or "like the general setting" or "leave unchanged"), plus "Main device in the menu" when several mice are connected.
+  - **Measurement** puts the live measurement and the DPI measurement (hold the space bar) right into Settings, without a separate window.
+  - Below the devices, under "For all devices", are Buttons & macros, Gamepads and Diagnostics.
+- In the menu, "Settings for this device…" on a device page now opens that device's page directly.
+
+### Fixed
+- A trackpad that is left unchanged ("Include trackpads" off) showed an orange "accelerated" icon. It is neutral grey now.
+
+### Security
+- **New update signing key.** Versions 3.11 to 3.16 cannot install this update by themselves: they correctly refuse it as "not signed by the developer". Please install 3.17.0 once with the install command or the DMG. From 3.17.0 on, updates install themselves again.
+
 ## [3.16.0] – 2026-10-21
 
 ### Added
