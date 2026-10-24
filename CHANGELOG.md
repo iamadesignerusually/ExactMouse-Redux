@@ -3,6 +3,21 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [3.18.0] – 2026-10-24
+
+### Added
+- **Aim check for shooter players (Pro)** under Settings → Apps → Aim check. It is built around what CS2 and other shooter players look for:
+  - **Real DPI:** measured from the raw sensor data and compared with the DPI set in the mouse. Logitech mice report their DPI by themselves; for other mice you enter it. The result is a plain verdict: very accurate (≤ 2 %), normal (≤ 5 %, common even for good sensors) or noticeable deviation. Unlike browser tests, acceleration, zoom and display scaling cannot distort it.
+  - **Polling check:** whether the mouse holds its rate (1,000–8,000 Hz), with the share of reports on time and the dropouts, plus tips for 4K/8K and wireless.
+  - **Sens match:** after a mouse or DPI change, the in-game sensitivity that keeps exactly the same cm per 360° (CS2, Valorant, Apex, Overwatch 2, Call of Duty).
+  - **Compared with CS2 pros:** where your eDPI sits among about 820 pros (median 800, middle half 704–960). Only aggregate numbers, no player names.
+  - **Mouse report as an image** (copy or save), e.g. for Discord. It contains no names and no serial numbers.
+- Help topic "Aim check".
+- 6 new self-test checks (DPI deviation, accuracy levels, cm/360, sens match, polling verdict, pro position).
+
+### Changed
+- The sensitivity calculator is called "Sens calculator" in the side menu, so it fits.
+
 ## [3.17.1] – 2026-10-24
 
 ### Fixed
