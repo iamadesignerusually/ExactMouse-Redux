@@ -1,161 +1,177 @@
-ExactMouse Redux – End User License Agreement (EULA)
-Endnutzer-Lizenzvertrag
+ExactMouse Redux — End User License Agreement
 
-Copyright © 2026 Maximilian Dahl (@iamadesignerusually). All rights reserved.
-Alle Rechte vorbehalten.
+DRAFT FOR LEGAL REVIEW — NOT APPROVED FOR DISTRIBUTION.
 
-ExactMouse Redux is proprietary software. It is not open source.
-ExactMouse Redux ist proprietäre Software. Sie ist nicht Open Source.
+Copyright © 2026 Maximilian Dahl. All rights reserved.
 
-===============================================================================
-ENGLISH
-===============================================================================
+This English draft prepares terms for future proprietary releases. It must be
+reviewed by qualified legal counsel, made publicly accessible, included with
+the relevant distribution and validly agreed where required before use as
+distribution terms. Publishing this draft does not change existing contracts,
+establish user acceptance or start Pro sales.
 
-1. Scope
-This agreement applies to ExactMouse Redux version 3.8.0 and later, including
-updates, the documentation and all related files ("the Software"). By installing
-or using the Software you accept this agreement. If you do not accept it, do not
-install or use the Software.
+1. Scope and agreement
 
-2. Licence
-The author grants you a non-exclusive, non-transferable, revocable licence to
-install and use the Software on Macs that you own or control, for personal or
-business use.
-- The free features may be used free of charge.
-- Pro features may require a paid licence key. During "Early Access" they are
-  unlocked for everyone free of charge; this can end with a later version.
-- A Pro licence is personal. It may only be used by the person or organisation
-  that bought it, on the number of Macs stated at purchase.
+This agreement is between Maximilian Dahl (the licensor) and the person or
+organisation using ExactMouse Redux (the licensee). It applies only to future
+versions distributed with these terms for which they have been validly agreed.
+Installing, downloading, using or updating the app does not by itself establish
+agreement to this draft. It does not apply retroactively.
 
-3. Restrictions
-Unless mandatory law expressly allows it, you may not:
-- copy, distribute, publish, sell, rent, lend or sublicense the Software, or
-  offer it for download, other than linking to the official download page;
-- modify, translate, decompile, disassemble or otherwise reverse engineer the
-  Software, or create derivative works from it (the rights under mandatory law,
-  e.g. Sections 69d and 69e of the German Copyright Act, remain unaffected);
-- bypass, disable or tamper with licence checks or Pro restrictions;
-- remove or change copyright, trademark or legal notices.
+ExactMouse Redux has been distributed as proprietary software since version
+3.8.0. Existing valid licenses and entitlements remain in effect under their
+applicable terms. Earlier open-license grants are preserved by section 4.
 
-4. Ownership
-The Software is licensed, not sold. All rights, in particular copyright, in the
-Software, its code, design, texts and icons remain with the author.
+The proprietary software is licensed, not sold. Ownership of proprietary code
+and assets remains with the relevant rights holders. You retain rights in your
+own data and work.
 
-5. Earlier versions
-Versions up to and including 3.7.5 were published under the MIT License. For
-copies of those versions obtained at that time, the MIT License continues to
-apply. It does not apply to version 3.8.0 or later.
+2. Free features and permitted use
 
-6. Updates and data
-The Software checks GitHub for new versions and can download them when you
-install an update. It collects or sends no personal data. See LEGAL.md.
+You receive a non-exclusive license to install and run ExactMouse Redux Free
+on Macs you own or control for personal or business use, including commercial
+work, without payment. You may make copies necessary for that use and backups.
+This does not authorise distribution or resale of proprietary material to
+others, subject to sections 4 and 5.
 
-7. Warranty
-The free Software is provided "as is". For paid licences the statutory warranty
-rights apply. The author does not guarantee that the Software works without
-errors or interruption, or with every device, macOS version or other software.
+3. Pro and Early Access
 
-8. Liability
-The author is liable without limitation for intent and gross negligence, for
-injury to life, body or health, and under the German Product Liability Act. For
-slight negligence the author is liable only for breach of an essential
-contractual obligation (an obligation whose fulfilment makes the proper
-performance of the contract possible in the first place and on which you may
-regularly rely), and limited to the damage that is typical and foreseeable for
-this kind of contract. For software provided free of charge the author is liable
-only for intent and gross negligence. Any further liability is excluded.
+Pro features are currently unlocked without payment during Early Access. This
+draft does not require payment for that access or activate a checkout, paid
+license check or trial.
 
-9. Termination
-This licence ends automatically if you breach it. You must then delete all
-copies of the Software.
+Once Pro sales begin, use of paid Pro features in future releases requires a
+valid Pro license. Before purchase, the offer must state the price, included
+features, license duration, permitted users and installations, and any update
+or renewal entitlements. This draft creates no subscription and promises no
+lifetime updates. A Pro license may be used by the purchasing person or
+organisation within the agreed entitlement, subject to applicable law.
 
-10. Trademarks
-"SteelSeries" and "ExactMouse" are trademarks of SteelSeries ApS. ExactMouse
-Redux is not a SteelSeries product and is not affiliated with SteelSeries ApS.
-See LEGAL.md.
+Temporary Early Access does not itself promise that Pro features will remain
+free in future releases. A future paid transition must respect statutory
+rights, existing contracts, valid licenses and entitlements. It cannot create
+retroactive payment obligations or reduce rights already granted in earlier
+copies. A change to Pro does not itself authorise removal of contracted features;
+any change must comply with applicable statutory and contractual requirements.
 
-11. Final provisions
-German law applies, excluding the UN Convention on Contracts for the
-International Sale of Goods (CISG). If you are a consumer, this choice of law does
-not deprive you of the protection of the mandatory provisions of the law of the
-country where you habitually reside. If a provision is invalid, the remaining
-provisions stay in effect.
+4. Earlier MIT releases and third-party material
 
-===============================================================================
-DEUTSCH
-===============================================================================
+Versions up to and including 3.7.5 were published under the MIT License.
+Rights already granted under MIT remain in effect, including use, copying,
+modification, distribution, sublicensing and sale, subject to its terms and
+notice requirements. They are not limited to copies obtained before the
+proprietary transition. This agreement does not revoke, narrow or replace those
+grants, including for MIT-licensed portions reused in later releases. The original
+MIT notice is preserved in the appendix and applies to that earlier material.
 
-1. Geltungsbereich
-Dieser Vertrag gilt für ExactMouse Redux ab Version 3.8.0, einschließlich
-Updates, Dokumentation und zugehöriger Dateien („die Software"). Mit der
-Installation oder Nutzung der Software stimmst du diesem Vertrag zu. Stimmst du
-nicht zu, installiere und nutze die Software nicht.
+Third-party material retains its own licenses and copyright notices. Where an
+applicable third-party license grants rights for a component, that license
+governs the component. This draft grants no new MIT license for proprietary
+material and does not claim ownership of third-party works.
 
-2. Lizenz
-Der Autor räumt dir ein einfaches, nicht übertragbares, widerrufliches Recht
-ein, die Software auf Macs zu installieren und zu nutzen, die dir gehören oder
-die du verwaltest, privat oder beruflich.
-- Die kostenlosen Funktionen dürfen unentgeltlich genutzt werden.
-- Pro-Funktionen können einen kostenpflichtigen Lizenzschlüssel erfordern. Im
-  „Early Access" sind sie für alle kostenlos freigeschaltet; das kann mit einer
-  späteren Version enden.
-- Eine Pro-Lizenz ist persönlich. Sie darf nur von der Person oder Organisation
-  genutzt werden, die sie gekauft hat, auf der beim Kauf genannten Zahl von Macs.
+5. Restrictions and statutory rights
 
-3. Einschränkungen
-Soweit zwingendes Recht es nicht ausdrücklich erlaubt, darfst du nicht:
-- die Software kopieren, verbreiten, veröffentlichen, verkaufen, vermieten,
-  verleihen, unterlizenzieren oder zum Download anbieten, außer durch einen
-  Link auf die offizielle Download-Seite;
-- die Software verändern, übersetzen, dekompilieren, disassemblieren oder
-  anderweitig zurückentwickeln oder abgeleitete Werke daraus erstellen (die
-  zwingenden Rechte, z. B. nach §§ 69d und 69e UrhG, bleiben unberührt);
-- Lizenzprüfungen oder Pro-Beschränkungen umgehen, abschalten oder verändern;
-- Urheber-, Marken- oder Rechtshinweise entfernen oder ändern.
+For proprietary material not covered by section 4, you may not modify,
+redistribute, publish, sublicense, rent, lend or sell the software, its source
+code or its assets without prior written permission from Maximilian Dahl,
+except as expressly permitted by this agreement, a separate applicable license
+or law. Linking to the official download page is permitted.
 
-4. Rechte
-Die Software wird lizenziert, nicht verkauft. Alle Rechte, insbesondere das
-Urheberrecht, an der Software, ihrem Code, Design, Texten und Symbolen
-verbleiben beim Autor.
+Do not circumvent license controls or remove applicable copyright, trademark
+or license notices, except where permitted by law or an applicable license.
+Restrictions on modification, translation, reverse engineering, disassembly
+and decompilation apply only to the extent permitted by applicable law.
 
-5. Frühere Versionen
-Versionen bis einschließlich 3.7.5 wurden unter der MIT-Lizenz veröffentlicht.
-Für damals bezogene Kopien dieser Versionen gilt die MIT-Lizenz weiter. Für
-Version 3.8.0 und neuer gilt sie nicht.
+These restrictions do not limit mandatory rights, including lawful backups,
+observation, study, testing, interoperability, decompilation or exhaustion of
+distribution rights to the extent applicable law protects them.
 
-6. Updates und Daten
-Die Software fragt bei GitHub nach neuen Versionen und lädt sie, wenn du ein
-Update installierst. Sie erhebt und sendet keine personenbezogenen Daten.
-Siehe LEGAL.md.
+6. Updates and privacy
 
-7. Gewährleistung
-Die kostenlose Software wird so bereitgestellt, wie sie ist. Für
-kostenpflichtige Lizenzen gelten die gesetzlichen Gewährleistungsrechte. Der
-Autor sichert nicht zu, dass die Software fehlerfrei, ununterbrochen oder mit
-jedem Gerät, jeder macOS-Version oder anderer Software funktioniert.
+Updates may be offered through the app's update mechanism. This agreement does
+not promise a release schedule, new features or indefinite support. Mandatory
+update and other statutory obligations remain unaffected.
 
-8. Haftung
-Der Autor haftet unbeschränkt bei Vorsatz und grober Fahrlässigkeit, bei
-Verletzung von Leben, Körper oder Gesundheit sowie nach dem
-Produkthaftungsgesetz. Bei leichter Fahrlässigkeit haftet der Autor nur bei
-Verletzung einer wesentlichen Vertragspflicht (einer Pflicht, deren Erfüllung
-die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf
-deren Einhaltung du regelmäßig vertrauen darfst), begrenzt auf den
-vertragstypischen, vorhersehbaren Schaden. Für unentgeltlich überlassene
-Software haftet der Autor nur bei Vorsatz und grober Fahrlässigkeit. Eine
-weitergehende Haftung ist ausgeschlossen.
+Different terms for a future version must be made available and validly agreed
+where required. An automatic update is not automatic acceptance of different
+terms and does not alter rights in earlier copies.
 
-9. Beendigung
-Diese Lizenz endet automatisch, wenn du gegen sie verstößt. Du musst dann alle
-Kopien der Software löschen.
+See LEGAL.md for the project's privacy and trademark notices. They do not
+replace applicable third-party privacy information.
 
-10. Marken
-„SteelSeries" und „ExactMouse" sind Marken der SteelSeries ApS. ExactMouse
-Redux ist kein Produkt von SteelSeries und nicht mit der SteelSeries ApS
-verbunden. Siehe LEGAL.md.
+7. Warranty, liability and ending use
 
-11. Schlussbestimmungen
-Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts (CISG). Bist du
-Verbraucher, wird dir dadurch nicht der Schutz der zwingenden Bestimmungen des
-Rechts des Staates entzogen, in dem du deinen gewöhnlichen Aufenthalt hast.
-Ist eine Bestimmung unwirksam, bleiben die übrigen wirksam.
+Statutory warranty, defect, liability and consumer rights apply. This draft
+does not exclude or limit them and adds no separate contractual warranty.
+Future Pro purchases must be accompanied by legally required information about
+the seller, payment, withdrawal, remedies and support.
+
+You may stop using the app and uninstall it at any time. Ending a proprietary
+license for material breach requires a lawful basis and notice, including an
+opportunity to remedy the breach where required. If that license lawfully
+ends, stop using and remove copies covered by it, except where retention or
+use is permitted by law or a separate license. Earlier MIT grants, existing
+independent entitlements and third-party rights remain unaffected.
+
+8. Trademarks
+
+ExactMouse Redux is an independent, unofficial project. It is not affiliated
+with, endorsed, sponsored or supported by SteelSeries ApS. SteelSeries and
+ExactMouse are trademarks or registered trademarks of SteelSeries ApS. See
+LEGAL.md for the existing attribution and trademark notice.
+
+Maintainer prerequisites — not additional end-user terms
+
+- Obtain legal review of ownership, contributor permissions, employment-related
+  rights, and AI-assisted code and asset provenance and protectability;
+  actual binary provenance and privacy behaviour; commercial use of
+  the app name and SteelSeries trademarks (a disclaimer is not legal clearance);
+  the MIT/proprietary boundary and reused portions; permitted users
+  and installations; consumer rights, liability, termination and the languages
+  required in the intended markets.
+- Preserve the original MIT notice in the appendix and all applicable third-party
+  notices with relevant distributions. Map reused portions across the 3.8.0
+  transition against the source and archives; the public project repository no
+  longer contains app source.
+- Publish the reviewed terms and include them with downloads and the app.
+  Check the private build, release, installer and update paths and implement
+  valid presentation and agreement where required. The public installer
+  currently contains no license presentation or agreement step.
+  Reconcile embedded Help, localised license/privacy text and Pro-offer wording
+  with the reviewed terms and actual behaviour before a release uses them.
+- Before Pro sales, confirm the actual offer, seller/contact information,
+  purchase and withdrawal disclosures and payment/license system. Assess provider
+  identification and accurate, separate privacy disclosures for the actual data
+  flows, including for the free edition. Review applicable electronic
+  withdrawal-function requirements before enabling online sales. Review the
+  implemented user-started seven-day trial and Early Access transition. No seller
+  address, checkout provider, price, governing-law clause or court venue is
+  supplied by this draft.
+
+Appendix: original MIT notice for previously MIT-licensed material
+
+This is the original notice recovered from the source history before the 3.8.0
+transition. It applies only to material already licensed under MIT; reproducing
+it here grants no MIT rights in new proprietary material.
+
+MIT License
+
+Copyright (c) 2026 Maximilian Dahl (@iamadesignerusually)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
