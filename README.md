@@ -24,7 +24,7 @@ That is what inspired **ExactMouse Redux**: an independent rebuild from scratch 
 > [!IMPORTANT]
 > **Unofficial community project, not a SteelSeries product.** It is not affiliated with, endorsed, sponsored or supported by SteelSeries ApS.
 > It was inspired by the SteelSeries ExactMouse Tool, and the idea for the original comes from SteelSeries. SteelSeries and ExactMouse are trademarks or registered trademarks of SteelSeries ApS. They are used here only to name that inspiration and to describe compatibility.
-> The app contains no code, binaries or artwork from SteelSeries. See [LEGAL.md](LEGAL.md).
+> The project describes the app as an independent reimplementation using macOS APIs. See [LEGAL.md](LEGAL.md) for the documented provenance and required review.
 
 <p align="center">
   <picture>
@@ -47,7 +47,7 @@ That is what inspired **ExactMouse Redux**: an independent rebuild from scratch 
 - **Main input device at the top of the menu**, with a real battery gauge and estimated remaining time (or a USB icon for wired mice), vendor, type, connection, polling rate and acceleration state at a glance.
 - **Polished menu**: a click on a device slides to its page right in the menu (with a back button). The main device is a card (connection, Bluetooth signal, state, battery), the three modes as tiles and every further device on one line. Each row has the same width and a quiet hover. Main device, mode and devices at a glance, everything else in the **settings window** (⌘,): six tabs (General, Mouse, Devices, Apps, Statistics, Pro), each with a small side menu (e.g. Mouse → Movement · Trackpads · Scrolling), plus a **searchable Help**.
 - **Buttons & macros (Pro):** map every extra mouse button (back/forward, Mission Control, Spaces, shortcuts, apps, media keys) and the **12 side keys of MMO mice like the Razer Naga** (beta), per app if you like. Macros can be recorded or built step by step, then played once, repeated while held, or toggled.
-- **Statistics:** how far your mouse travels (today, month, year, all time), clicks per button, your most used macros, and a weekday × hour heat map of when you move, click and scroll. Everything stays local, with no keystrokes recorded.
+- **Statistics:** how far your mouse travels (today, month, year, all time), clicks per button, your most used macros, and a weekday × hour heat map of when you move, click and scroll. The statistics are documented as stored locally, without recorded keystrokes.
 - **Gaming:** automatic game mode, low battery warnings, a sensitivity calculator (cm/360°, eDPI, conversion between games), and setting the DPI of Logitech mice.
 - **Automation:** `exactmouse-redux://` URLs for Shortcuts, Focus, Raycast and Stream Deck.
 - **Pro features** (free during Early Access): **stepless linear fine tuning** (0.10–4.00× in 0.01 steps, with fine slider, number field and arrows), settings per device, **profiles per app** (e.g. 1:1 only in your game), scroll acceleration off, mouse-only reverse scrolling, plus the diagnostics, automatic game mode and battery warnings. The **Pro tab** shows them all at a glance.
@@ -97,7 +97,7 @@ Uninstall: `… | bash -s -- --uninstall`, and add `--purge` to remove the setti
 
 Requires **macOS 14.4 or later**, on Apple Silicon or Intel (universal binary).
 
-**Permissions.** Turning off acceleration needs no permission. The live measurements in *Mouse Details* need **Input Monitoring** (System Settings → Privacy & Security → Input Monitoring). Redux evaluates the data only locally and only while the details window is open. Nothing is stored or sent anywhere.
+**Permissions.** Turning off acceleration needs no permission. The live measurements in *Mouse Details* need **Input Monitoring** (System Settings → Privacy & Security → Input Monitoring). The project documents these live measurements as processed locally while the details window is open. See [LEGAL.md](LEGAL.md) for the documented update requests and privacy review status.
 
 ## Why the original broke
 
@@ -145,7 +145,7 @@ Similar, but Redux also enforces the setting against games and apps that turn ac
 macOS cannot read the DPI step stored in the mouse firmware, which you set with tools like SteelSeries GG. Redux can **measure** your DPI instead (*Mouse Details → Measure DPI*). It never changes mouse firmware settings.
 
 **Is it free? Does it collect data?**
-The app is free; Pro features are free during Early Access. It is proprietary software (not open source, see [LICENSE](LICENSE)). It has no tracking and collects no data. The only network access is the update check, which asks the GitHub API for the latest version once a day and can be switched off in Settings → General, plus downloading an update when you install one.
+ExactMouse Redux Free may be used without payment, including for commercial work. Pro features are free during Early Access. Once Pro sales begin, paid Pro features in future releases will require a valid Pro license, subject to existing licenses, entitlements and statutory rights; there is no retroactive charge. It is proprietary software (not open source, see [LICENSE](LICENSE)). Usage statistics are documented as local counts, without recorded keystrokes, positions or window contents. Update checks and downloads make requests to GitHub; the daily check can be switched off in Settings → General. GitHub may process connection data such as your IP address; see the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). These descriptions do not certify all data flows of the distributed binary.
 
 ## Versioning
 
@@ -155,4 +155,4 @@ Releases follow [Semantic Versioning](https://semver.org) and are tagged `vX.Y.Z
 
 <sub>Keywords: SteelSeries ExactMouse Tool for Mac, ExactMouse macOS 27, disable mouse acceleration Mac, turn off mouse acceleration macOS, raw mouse input Mac, linear mouse movement, mouse acceleration fix for gaming on macOS, Apple Silicon.</sub>
 
-Made by **Maximilian Dahl** ([@iamadesignerusually](https://github.com/iamadesignerusually)). © 2026 Maximilian Dahl. All rights reserved. ExactMouse Redux is proprietary software, see the [license agreement](LICENSE). Versions up to 3.7.5 were published under the MIT License. See [LEGAL.md](LEGAL.md) for the trademark, privacy and liability notice. Bug reports and ideas are welcome as [issues](https://github.com/iamadesignerusually/ExactMouse-Redux/issues).
+Made by **Maximilian Dahl** ([@iamadesignerusually](https://github.com/iamadesignerusually)). © 2026 Maximilian Dahl. All rights reserved. ExactMouse Redux is proprietary software, see the [license notice and EULA draft](LICENSE). Versions up to 3.7.5 were published under the MIT License; those grants remain in effect, including for MIT-licensed portions reused later. The English [EULA draft](LICENSE) is for legal review and future valid incorporation; it does not replace existing licenses or start Pro sales. See [LEGAL.md](LEGAL.md) for the trademark, privacy and liability notice. Bug reports and ideas are welcome as [issues](https://github.com/iamadesignerusually/ExactMouse-Redux/issues).

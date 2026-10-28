@@ -24,7 +24,7 @@ Das war die Inspiration für **ExactMouse Redux**: ein eigenständiger Neubau f�
 > [!IMPORTANT]
 > **Inoffizielles Projekt, kein Produkt von SteelSeries.** Es ist nicht mit SteelSeries ApS verbunden und wird von SteelSeries weder unterstützt noch gesponsert oder autorisiert.
 > Inspiriert wurde es vom SteelSeries ExactMouse Tool, die Idee zum Original stammt von SteelSeries. SteelSeries und ExactMouse sind Marken bzw. eingetragene Marken der SteelSeries ApS. Sie werden hier nur verwendet, um diese Inspiration zu nennen und die Kompatibilität zu beschreiben.
-> Die App enthält keinen Code, keine Programmdateien und keine Grafiken von SteelSeries.
+> Das Projekt beschreibt die App als unabhängige Neuimplementierung mit macOS-Schnittstellen. Die dokumentierte Herkunft und die noch erforderliche Prüfung stehen in [LEGAL.md](LEGAL.md).
 
 ## Funktionen
 
@@ -37,7 +37,7 @@ Das war die Inspiration für **ExactMouse Redux**: ein eigenständiger Neubau f�
 - **Haupt-Eingabegerät ganz oben im Menü** mit echter Akku-Anzeige und geschätzter Restlaufzeit (bei Kabel ein USB-Symbol), Hersteller, Typ, Verbindung, Abfragerate und Beschleunigungs-Status auf einen Blick.
 - **Hochwertiges Menü**: Ein Klick auf ein Gerät gleitet direkt im Menü zu seiner Seite (mit Zurück-Knopf). Das Hauptgerät ist eine Karte (Verbindung, Bluetooth-Signal, Zustand, Akku), die drei Modi als Kacheln und jedes weitere Gerät in einer Zeile. Alle Zeilen haben dieselbe Breite und einen ruhigen Hover. Hauptgerät, Modus und Geräte auf einen Blick, alles Weitere im **Einstellungsfenster** (⌘,): sechs Tabs (Allgemein, Maus, Geräte, Apps, Statistik, Pro), jeweils mit kleinem Seitenmenü (z. B. Maus → Bewegung · Trackpads · Scrollen), dazu eine **durchsuchbare Hilfe**.
 - **Tasten & Makros (Pro):** jede Zusatztaste belegen (Vor/Zurück, Mission Control, Spaces, Kürzel, Apps, Medientasten) und die **12 Seitentasten von MMO-Mäusen wie der Razer Naga** (Beta), auf Wunsch pro App. Makros lassen sich aufnehmen oder Schritt für Schritt bauen und dann einmal, solange gedrückt oder an/aus abspielen.
-- **Statistik:** Mausweg (Tag, Monat, Jahr, gesamt), Klicks pro Taste, meistgenutzte Makros und eine Heatmap nach Wochentag × Stunde, wann du bewegst, klickst und scrollst. Alles bleibt lokal, Tastatureingaben werden nicht erfasst.
+- **Statistik:** Mausweg (Tag, Monat, Jahr, gesamt), Klicks pro Taste, meistgenutzte Makros und eine Heatmap nach Wochentag × Stunde, wann du bewegst, klickst und scrollst. Die Statistik ist als lokal gespeichert dokumentiert, ohne aufgezeichnete Tastatureingaben.
 - **Gaming:** automatischer Spielmodus, Akku-Warnungen, ein Empfindlichkeits-Rechner (cm/360°, eDPI, Umrechnung zwischen Spielen) und das Setzen der DPI bei Logitech-Mäusen.
 - **Automatisierung:** `exactmouse-redux://`-URLs für Kurzbefehle, Fokus, Raycast und Stream Deck.
 - **Pro-Funktionen** (im Early Access kostenlos): **stufenlose Linear-Feineinstellung** (0,10–4,00× in 0,01er-Schritten, per Feinregler, Zahlenfeld und Pfeilen), Einstellungen pro Gerät, **Profile pro App** (z. B. nur im Spiel 1:1), Scroll-Beschleunigung aus, Scrollrichtung nur für die Maus umkehren, dazu die Diagnose, der automatische Spielmodus und Akku-Warnungen. Der **Pro-Tab** zeigt alles auf einen Blick.
@@ -74,7 +74,7 @@ Das Skript lädt die neueste Version, prüft die Prüfsumme, installiert nach `/
 3. Die App starten. Weil sie kostenlos und nicht von Apple notarisiert ist, meldet macOS „konnte nicht überprüft werden". Auf **Fertig** klicken.
 4. **Systemeinstellungen → Datenschutz & Sicherheit** öffnen, nach unten scrollen, bei *ExactMouse Redux* auf **Dennoch öffnen** klicken und mit dem Passwort bestätigen. Das ist nur einmal nötig.
 
-Voraussetzung ist macOS 14.4 oder neuer. Für die Messungen im Detail-Fenster braucht die App die Berechtigung *Eingabeüberwachung*. Die Daten werden nur lokal ausgewertet.
+Voraussetzung ist macOS 14.4 oder neuer. Für die Messungen im Detail-Fenster braucht die App die Berechtigung *Eingabeüberwachung*. Die Messdaten sind als lokal verarbeitet dokumentiert; siehe [LEGAL.md](LEGAL.md) zu Update-Anfragen und zur noch erforderlichen Datenschutzprüfung.
 
 ## Häufige Fragen
 
@@ -88,7 +88,7 @@ Voraussetzung ist macOS 14.4 oder neuer. Für die Messungen im Detail-Fenster br
 
 **Kann es die DPI auslesen?** Die in der Maus gespeicherte DPI-Stufe kann macOS nicht lesen. Redux kann sie aber **messen**.
 
-**Ist es kostenlos? Werden Daten gesammelt?** Die App ist kostenlos, Pro-Funktionen sind im Early Access gratis. Sie ist proprietäre Software (nicht Open Source, siehe [Lizenz](LICENSE)). Es gibt kein Tracking, keine Datensammlung. Die einzige Verbindung geht zu GitHub für Updates.
+**Ist es kostenlos? Werden Daten gesammelt?** ExactMouse Redux Free darf ohne Bezahlung genutzt werden, auch für kommerzielle Arbeit. Pro-Funktionen sind im Early Access gratis. Sobald der Pro-Verkauf beginnt, benötigen kostenpflichtige Pro-Funktionen künftiger Versionen eine gültige Pro-Lizenz; bestehende Lizenzen, Nutzungsrechte und gesetzliche Rechte bleiben gewahrt. Rückwirkende Zahlungspflichten entstehen nicht. Sie ist proprietäre Software (nicht Open Source, siehe [Lizenz](LICENSE)). Die Nutzungsstatistik ist als lokale Zählwerte dokumentiert, ohne aufgezeichnete Tastatureingaben, Positionen oder Fensterinhalte. Update-Prüfungen und Downloads senden Anfragen an GitHub; die tägliche Prüfung lässt sich unter Einstellungen → Allgemein abschalten. GitHub kann dabei Verbindungsdaten wie deine IP-Adresse verarbeiten; siehe [GitHub-Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). Diese Beschreibung bestätigt nicht sämtliche Datenflüsse der ausgelieferten Programmdatei.
 
 Die Versionierung folgt [Semantic Versioning](https://semver.org) mit Tags `vX.Y.Z`, Änderungen stehen im [CHANGELOG.md](CHANGELOG.md).
 
@@ -96,4 +96,4 @@ Warum das Original nicht mehr funktioniert, steht in der [englischen README](REA
 
 ## Autor & Lizenz
 
-Entwickelt von **Maximilian Dahl** ([@iamadesignerusually](https://github.com/iamadesignerusually)). © 2026 Maximilian Dahl, alle Rechte vorbehalten. ExactMouse Redux ist proprietäre Software, siehe [Lizenzvertrag](LICENSE). Versionen bis 3.7.5 wurden unter der MIT-Lizenz veröffentlicht. Marken, Datenschutz und Haftung: [LEGAL.md](LEGAL.md). Fehler und Ideen gern als [Issue](https://github.com/iamadesignerusually/ExactMouse-Redux/issues).
+Entwickelt von **Maximilian Dahl** ([@iamadesignerusually](https://github.com/iamadesignerusually)). © 2026 Maximilian Dahl, alle Rechte vorbehalten. ExactMouse Redux ist proprietäre Software, siehe [Lizenzhinweis und EULA-Entwurf](LICENSE). Versionen bis 3.7.5 wurden unter der MIT-Lizenz veröffentlicht; diese Rechte gelten weiter, auch für später wiederverwendete MIT-lizenzierte Bestandteile. Der englische [EULA-Entwurf](LICENSE) ist für die rechtliche Prüfung und spätere wirksame Einbeziehung bestimmt. Er ersetzt keine bestehenden Lizenzen und startet keinen Pro-Verkauf. Marken, Datenschutz und Haftung: [LEGAL.md](LEGAL.md). Fehler und Ideen gern als [Issue](https://github.com/iamadesignerusually/ExactMouse-Redux/issues).
