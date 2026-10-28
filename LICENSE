@@ -134,11 +134,16 @@ Maintainer prerequisites — not additional end-user terms
   transition against the source and archives; the public project repository no
   longer contains app source.
 - Publish the reviewed terms and include them with downloads and the app.
-  Check the private build, release, installer and update paths and implement
-  valid presentation and agreement where required. The public installer
-  currently contains no license presentation or agreement step.
-  Reconcile embedded Help, localised license/privacy text and Pro-offer wording
-  with the reviewed terms and actual behaviour before a release uses them.
+  Source builds bundle the canonical LICENSE and LEGAL.md before signing.
+  About > License & EULA reads the bundled LICENSE offline, with the public
+  repository copy as a fallback. Both repository READMEs link to this draft;
+  existing release downloads have not been rebuilt by these source changes.
+  Verify the release, installer and update paths and implement valid presentation
+  and agreement where required. Reading this draft establishes no acceptance.
+  The public installer currently has no license presentation or agreement step.
+  The About license summary identifies the draft and preserves earlier rights.
+  Reconcile the remaining embedded Help, privacy text and Pro-offer wording with
+  the reviewed terms and actual behaviour before a release uses them.
 - Before Pro sales, confirm the actual offer, seller/contact information,
   purchase and withdrawal disclosures and payment/license system. Assess provider
   identification and accurate, separate privacy disclosures for the actual data

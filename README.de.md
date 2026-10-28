@@ -19,7 +19,9 @@ Das war die Inspiration für **ExactMouse Redux**: ein eigenständiger Neubau f�
   <br><sub>Kostenlos · Apple Silicon &amp; Intel · macOS 14.4 – 27 · <a href="https://github.com/iamadesignerusually/ExactMouse-Redux/releases">alle Versionen</a> · <a href="CHANGELOG.md">Changelog</a></sub>
 </p>
 
-[English](README.md) · [Rechtliche Hinweise](LEGAL.md) · [Lizenz](LICENSE)
+[English](README.md) · [Rechtliche Hinweise](LEGAL.md) · [Lizenz & EULA (Entwurf)](LICENSE)
+
+Neu gebaute Kopien enthalten den Text offline unter **Über ExactMouse Redux → Lizenz & EULA**. Bestehende Release-Downloads bleiben unverändert. Er bleibt ein Entwurf zur rechtlichen Prüfung; das Lesen begründet keine Zustimmung.
 
 > [!IMPORTANT]
 > **Inoffizielles Projekt, kein Produkt von SteelSeries.** Es ist nicht mit SteelSeries ApS verbunden und wird von SteelSeries weder unterstützt noch gesponsert oder autorisiert.
